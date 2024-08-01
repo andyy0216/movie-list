@@ -13,7 +13,7 @@ app.get('/',(req, res) => {
 })
 
 app.get('/movies', (req, res) => {
-    res.send('listing movies')
+    // res.send('listing movies')
     res.render('index')
 })
 
