@@ -4,8 +4,8 @@
     <div class="col-12">
       <form action="/movies">
         <div class="input-group mb-3">
-          <input type="text" name="search" class="form-control" placeholder="Enter movie name to search..." aria-label="Movie Name..."
-            aria-describedby="search-button">
+          <input type="text" name="search" class="form-control" placeholder="Enter movies info to search..." aria-label="movies info"
+            aria-describedby="button-addon-search" value="{{keyword}}">
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="submit" id="search-button">Search</button>
           </div>
@@ -28,7 +28,5 @@
         </a>
       </div>
     {{/each}}
-  </div>
-</div>
   </div>
 </div>
